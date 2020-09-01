@@ -1,0 +1,86 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+h2 {
+    background-color: skyblue;
+}
+
+#cards {
+    border: 1em;
+    background-color: black;
+    position: center;
+    box-sizing: content-box;
+}
+
+.navbar .navbar-brand img {
+    height: 30px;
+}
+
+.navbar .navbar-brand {
+    padding-top: 0;
+}
+
+.navbar .nav-link {
+    color: #444343!important;
+}
+
+.navbar .button-collapse {
+    padding-top: 1px;
+}
+
+.card-intro .card-body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 0 !important;
+}
+
+.card-intro .card-body h1 {
+    margin-bottom: 0;
+}
+
+.card-intro {
+    margin-top: 64px;
+}
+
+@media (max-width: 450px) {
+    .card-intro {
+        margin-top: 56px;
+    }
+}
+
+@media (min-width: 1441px) {
+    .card-intro {
+        padding-left: 0 !important;
+    }
+}
+
+.input-grey .input-group-lg>.input-group-prepend>.input-group-text {
+    border-radius: .125rem;
+}
+
+.input-grey .form-control {
+    border-radius: .125rem;
+}
+
+.input-grey .form-control.form-control-lg {
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.input-grey input::placeholder {
+    color: #fff;
+}
+
+.input-grey .input-group-lg>.form-control:not(textarea) {
+    height: calc(1.5em + 1rem + 6px);
+}
+
+.social .fab {
+    width: 30px;
+    height: 30px;
+}
